@@ -4,46 +4,100 @@
         <title>Tommy Seattle Real Estate</title>
         <meta charset="UTF-8">
         <meta name="description" content="Tommy Seattle Real Estate">
-        <meta name="keywords" content="Tommy, Tommy Surjadi, Real Estate, Property, Indonesian, Seattle, Pacific Northwest, Bellevue, Issaquah, Providenc Point, Redmond, Kirkland, Renton, Newcastle, Eastside, Washington, USA, America, The US">
-        <meta name="author" content="Tommy Surjadi">
+        <meta name="keywords" content="Tommy, Real Estate, Property, Singapore, Indonesia, Singaporean,Indonesian, Seattle, Pacific Northwest, Bellevue, Issaquah, Providenc Point, Redmond, Kirkland, Renton, Newcastle, Eastside, Washington, USA, America, The US">
+        <meta name="author" content="Tommys">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+.site-nav{
+  width: 100%;
+  background-color: gray;
+  padding: 0.5rem 2rem;
+  color: white;
+}
+.site-nav a{
+  color: white;
+  text-decoration: none;
+}
+.site-nav ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+.site-nav a{
+  color: white;
+  text-decoration: none;
+}
+
+.site-nav li{
+  display: inline-block;
+  position: relative;
+  font-size: 1rem;
+  padding: .5rem 3rem;
+}
+.site-nav li:hover{
+background-color: black;
+}
+.site-nav ul.drop-down{
+  display: none;
+  min-width: 10rem;
+  background-color: lightgray;
+  top: 2.1rem;
+  left: 0;
+  position: absolute;
+}
+.site-nav >ul> li:hover ul.drop-down{
+  display: block;
+}
+.site-nav ul.drop-down li{
+ display: block;
+ width: 100%;
+ padding:.5rem 1rem;
+}
+
+.site-nav ul.drop-down a{
+  color: black;
+}
+.site-nav ul.drop-down li:hover a{
+  color: white;
+}
+        </style>
     </head>
     <body>
-        <nav>
-            <a href="/ourstrength/">Our Strength</a> |
-            <a href="/mystrength/">My Strength</a> |
-            <a href="/contactme/">Contact Me</a> |
-            <a href="/sitemap/">Sitemap</a>
+        <nav class="site-nav">
+            <ul>
+            <li><a href="#">Our Strength</a>
+            <li><a href="#">My Strength</a>
+            <li><a href="#">Contact Me</a>
+            <li><a href="#">Sitemap</a>
+            </ul>
         </nav>
         <main>
-            <<header style="color: blue">>
+            <header>
                 <h1>Living & Retiring in Seattle, Washington.</h1>
-                <h2><mark><i>By Tommy Surjadi - Realtor - Coldwell Banker Bain.</i></mark></h2>
+                <h2>By Tommys - Realtor - Coldwell Banker Bain.</h2>
                 <h3>Coldwell Banker Bain - Partner with the Best in the World.</h3>
             </header>
             <article>
                 <h2>Our Strength</h2>
-                <p style="color: blue">
+                <p>
                     Backed by the strength of our expertise in home prepation, price setting and contract negotiation, we deliver the quality results you demand, to your complete satisfaction.
                 </p>
-                <p style="color: blue">
+                <p>
                     Our high standards have created a legacy of success for our Company with nearly 3,000 offices worldwide, Coldwell Banker Bain has been ranekd the Number 1 Coldwell Banker affiliate in North America.
                 </p>
             </article>
             <article>
                 <h2>My Strength</h2>
-                <p style="color: blue">
+                <p>
                     A multi-lingual licensed realtor with over 20 years of finance, wealth management & real estate experience.
                 </p>
-                <p style="color: blue">
+                <p>
                     <b><i>A member of Washington Association of Realtors and National Association of Realtors, Northest Multiple Listing Services and Asian Real Estate Association of America.</i></b>
                 </p>
-                <p style="color: blue">
+                <p>
                     <b>Covering Bellevue, Kirkland, Redmond, Issaquah, Sammamish, Providence Point and other greater Seattle area.</b>
                 </p>
-                <p>
+
                     Please complete your personal information:
-                </P>
                 <form action="/action_page.php">
                     First name: <input type="text" name="FirstName" value=" "><br>
                     Last name: <input type="text" name="LastName" value=" "><br>
@@ -62,7 +116,7 @@
                     <input type="submit" value="Submit">
                 </form>
                 <p>
-                    <mark><strong>Mobile: 206-765-7866  Email: tommysurjadi@gmail.com</strong></mark>
+                    <strong>Mobile: 206-765-7866</strong>
                 </p>
                 <p>
                     Opening hours <time>09:00</time> to <time> 17:00</time> everyday.
@@ -72,7 +126,7 @@
                 </p>
             </article>
             <figure>
-                <img src="pic1.jpg" alt="The Picture 1" width="304" height="228">
+                <img src="picture1.jpg" alt="The Picture 1" width="304" height="228">
                 <figcaption>."This is a dome.""</figcaption>
             </figure>
             <aside>
@@ -82,7 +136,7 @@
                 <strong>Note:</strong> Seattle, Bellevue, Redmond, Kirkland Issaquah, Providence Point and other greater Seattle area.
             </p>
             <footer>
-                <b><i>The website has been developed by Tommy in collaboration and under supervision by his mentor, Sheyna Watkins.</i></b>
+                <b><i>The website has been developed by Tommy in collaboration and under supervision by his mentor, SW-UW.</i></b>
             </footer>
         </main>
             <details>
